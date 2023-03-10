@@ -5,11 +5,11 @@
 # Recommended: Go.AllowList.gitignore
 
 # Ignore everything
+*.exe
 *
-
 # But not these files...
 !/.gitignore
-
+!*svg
 !*.go
 !go.sum
 !go.mod
